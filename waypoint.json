@@ -1,0 +1,57 @@
+[
+    {
+        "method": "setActive",
+        "params": ["name"],
+        "returns": true
+    },
+    {
+        "method": "getActive",
+        "params": null,
+        "returns": "point"
+    },
+    {
+        "method": "debugLibrary",
+        "params": null,
+        "returns": "passed"
+    },
+    {
+        "method": "addWaypoint",
+        "params": ["name", 0.0, 0.0, 0.0],
+        "returns": true
+    },
+    {
+        "method": "modifyWaypoint",
+        "params": ["name", 0.0, 0.0, 0.0],
+        "returns": true
+    },
+    {
+        "method": "serviceInfo",
+        "params": null,
+        "returns": "message"
+    },
+    {
+        "method": "getLibrarySize",
+        "params": null,
+        "returns": 0
+    },
+    {
+        "method": "removeWaypoint",
+        "params": ["name"],
+        "returns": "true"
+    },
+    {
+        "method": "getNamesFromLibrary",
+        "params": null,
+        "returns": []
+    },
+    {
+        "method": "calcDistBear",
+        "params": ["name", "name"],
+        "returns": []
+    },
+    {
+        "method": "getJSONPointFromLibrary",
+        "params": ["name"],
+        "returns": []
+    }
+]
